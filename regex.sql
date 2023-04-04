@@ -1,0 +1,3 @@
+SELECT * FROM northwind.employees; 
+
+SELECT * FROM northwind.EMPLOYEES WHERE UPPER(FIRSTNAME) REGEXP '^A';
